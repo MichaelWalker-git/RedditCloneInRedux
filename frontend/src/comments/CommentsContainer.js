@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import {Button, Card, CardActions, CardContent, TextField, Typography} from "material-ui";
-import {Edit, Delete, Save} from 'material-ui-icons';
+import {Button, Card, CardActions, CardContent, TextField, Typography} from "@material-ui/core";
+import {Edit, Delete, Save} from '@material-ui/icons';
 import VoteComponent from "../app/voteComponent";
 
 class Comment extends Component {

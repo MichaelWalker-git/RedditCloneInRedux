@@ -14,7 +14,7 @@ app.use(express.static('public'));
 app.use(cors());
 
 
-app.get('/', (req, res) => {
+app.get('/api/', (req, res) => {
   const help = `
   <pre>
     Welcome to the Udacity Readable API!
@@ -117,7 +117,7 @@ app.use((req, res, next) => {
 
   if (token) {
     req.token = token;
-    next()
+    next();
   } else {
     res.status(403).send({
       error: 'Please provide an Authorization header to identify yourself (can be whatever you want)'
@@ -126,7 +126,7 @@ app.use((req, res, next) => {
 });
 
 
-app.get('/categories', (req, res) => {
+app.get('/api/categories', (req, res) => {
     categories.getAll(req.token)
       .then(
           (data) => res.send(data),
@@ -139,7 +139,7 @@ app.get('/categories', (req, res) => {
       )
 });
 
-app.get('/:category/posts', (req, res) => {
+app.get('/api/:category/posts', (req, res) => {
     posts.getByCategory(req.token, req.params.category)
       .then(
           (data) => res.send(data),
@@ -152,7 +152,8 @@ app.get('/:category/posts', (req, res) => {
       )
 });
 
-app.get('/posts', (req, res) => {
+app.get('/api/posts', (req, res) => {
+  console.log(req.token, "TOKEN");
     posts.getAll(req.token)
       .then(
           (data) => res.send(data),
@@ -165,7 +166,7 @@ app.get('/posts', (req, res) => {
       )
 });
 
-app.post('/posts', bodyParser.json(), (req, res) => {
+app.post('/api/posts', bodyParser.json(), (req, res) => {
     posts.add(req.token, req.body)
       .then(
           (data) => res.send(data),
@@ -178,7 +179,7 @@ app.post('/posts', bodyParser.json(), (req, res) => {
       )
 });
 
-app.get('/posts/:id', (req, res) => {
+app.get('/api/posts/:id', (req, res) => {
     posts.get(req.token, req.params.id)
       .then(
           (data) => res.send(data),
@@ -191,7 +192,7 @@ app.get('/posts/:id', (req, res) => {
       )
 });
 
-app.delete('/posts/:id', (req, res) => {
+app.delete('/api/posts/:id', (req, res) => {
     posts.disable(req.token, req.params.id)
       .then(post => comments.disableByParent(req.token, post))
       .then(
@@ -205,7 +206,7 @@ app.delete('/posts/:id', (req, res) => {
       )
 });
 
-app.post('/posts/:id', bodyParser.json(), (req, res) => {
+app.post('/api/posts/:id', bodyParser.json(), (req, res) => {
     const { option } = req.body;
     const id = req.params.id;
     posts.vote(req.token, id, option)
@@ -220,7 +221,7 @@ app.post('/posts/:id', bodyParser.json(), (req, res) => {
       )
 });
 
-app.put('/posts/:id', bodyParser.json(), (req, res) => {
+app.put('/api/posts/:id', bodyParser.json(), (req, res) => {
     posts.edit(req.token, req.params.id, req.body)
       .then(
         (data) => res.send(data),
@@ -233,7 +234,7 @@ app.put('/posts/:id', bodyParser.json(), (req, res) => {
       )
 });
 
-app.get('/posts/:id/comments', (req, res) => {
+app.get('/api/posts/:id/comments', (req, res) => {
     comments.getByParent(req.token, req.params.id)
       .then(
           (data) => res.send(data),
@@ -246,7 +247,7 @@ app.get('/posts/:id/comments', (req, res) => {
       )
 });
 
-app.get('/comments/:id', (req, res) => {
+app.get('/api/comments/:id', (req, res) => {
     comments.get(req.token, req.params.id)
       .then(
           (data) => res.send(data),
@@ -259,7 +260,7 @@ app.get('/comments/:id', (req, res) => {
       )
 });
 
-app.put('/comments/:id', bodyParser.json(), (req, res) => {
+app.put('/api/comments/:id', bodyParser.json(), (req, res) => {
     comments.edit(req.token, req.params.id, req.body)
       .then(
         (data) => res.send(data),
@@ -272,7 +273,7 @@ app.put('/comments/:id', bodyParser.json(), (req, res) => {
       )
 });
 
-app.post('/comments', bodyParser.json(), (req, res) => {
+app.post('/api/comments', bodyParser.json(), (req, res) => {
     comments.add(req.token, req.body)
       .then(
           (data) => res.send(data),
@@ -285,7 +286,7 @@ app.post('/comments', bodyParser.json(), (req, res) => {
       )
 });
 
-app.post('/comments/:id', bodyParser.json(), (req, res) => {
+app.post('/api/comments/:id', bodyParser.json(), (req, res) => {
     const { option } = req.body;
     comments.vote(req.token, req.params.id, option)
       .then(
@@ -299,7 +300,7 @@ app.post('/comments/:id', bodyParser.json(), (req, res) => {
       )
 });
 
-app.delete('/comments/:id', (req, res) => {
+app.delete('/api/comments/:id', (req, res) => {
     comments.disable(req.token, req.params.id)
       .then(
           (data) => res.send(data),
@@ -313,5 +314,5 @@ app.delete('/comments/:id', (req, res) => {
 });
 
 app.listen(config.port, () => {
-  console.log('Server listening on port %s, Ctrl+C to stop', config.port)
+  console.log('Server listening on port %s, Ctrl+C to stop', config.port);
 });

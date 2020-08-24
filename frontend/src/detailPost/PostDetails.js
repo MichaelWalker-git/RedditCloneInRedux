@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Post from "../posts/Post";
 import Comment from "../comments/CommentsContainer";
-import {Button, FormControl, InputLabel, MenuItem, Select, TextField} from "material-ui";
+import {Button, FormControl, InputLabel, MenuItem, Select, TextField} from "@material-ui/core";
 
 class PostDetails extends Component {
 	state = {

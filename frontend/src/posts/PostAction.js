@@ -131,7 +131,7 @@ export function setPostSortOrder(sortOrder, boolean){
 export function fetchPostsForCategory(category) {
 	return dispatch => {
 		dispatch(requestPosts(category));
-		return fetch(`/${category}/posts`, {
+		return fetch(`${process.env.REACT_APP_SERVER_ENV}/${category}/posts`, {
 			headers: standardHeaders})
 			.then(response => response.json())
 			.then(json => dispatch(receivePosts(category, json)))
@@ -142,7 +142,7 @@ export function fetchPostsForCategory(category) {
 export function voteForPostId(post, voteDirection, category){
 	return dispatch => {
 		dispatch(requestVotePost(post, category));
-		return fetch(`//posts/${post.id}`, {
+		return fetch(`${process.env.REACT_APP_SERVER_ENV}/posts/${post.id}`, {
 			headers: standardHeaders,
 			method: 'POST',
 			body: JSON.stringify({option: voteDirection})
@@ -159,7 +159,7 @@ export function voteForPostId(post, voteDirection, category){
 export function fetchAllPosts() {
 	return dispatch => {
 		dispatch(requestPosts());
-		return fetch(`/posts`, {
+		return fetch(`${process.env.REACT_APP_SERVER_ENV}/api/posts`, {
 			headers: standardHeaders
 		})
 			.then(response => response.json())
@@ -170,7 +170,7 @@ export function fetchAllPosts() {
 export function deleteSinglePost(post, currentPage){
 	return dispatch => {
 		dispatch(deletePost(post, currentPage));
-		return fetch(`posts/${post.id}`, {
+		return fetch(`${process.env.REACT_APP_SERVER_ENV}posts/${post.id}`, {
 			headers: standardHeaders,
 			method: 'DELETE',
 			} )
@@ -183,7 +183,7 @@ export function deleteSinglePost(post, currentPage){
 export function fetchSinglePost(postId){
 	return dispatch => {
 		dispatch(requestSinglePost(postId));
-		return fetch(`/posts/${postId}`, {
+		return fetch(`${process.env.REACT_APP_SERVER_ENV}/api/posts/${postId}`, {
 			headers: standardHeaders
 		})
 			.then(response => response.json())
@@ -194,7 +194,7 @@ export function fetchSinglePost(postId){
 export function patchSinglePost(postDetails, category){
 	return dispatch => {
 		dispatch(editPost(postDetails, category));
-		return fetch(`/posts/${postDetails.id}`, {
+		return fetch(`${process.env.REACT_APP_SERVER_ENV}/api/posts/${postDetails.id}`, {
 			headers: standardHeaders,
 			method: 'PUT',
 			body: JSON.stringify({
@@ -210,7 +210,7 @@ export function patchSinglePost(postDetails, category){
 export function addNewPost(postDetails){
 	return dispatch => {
 		dispatch(addPost(postDetails));
-		return fetch(`/posts/`, {
+		return fetch(`${process.env.REACT_APP_SERVER_ENV}/api/posts/`, {
 			headers: standardHeaders,
 			method: 'POST',
 			body: JSON.stringify(postDetails)

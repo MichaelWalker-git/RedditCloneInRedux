@@ -1,6 +1,5 @@
 import React, {Component}  from 'react';
-import Card, { CardActions, CardContent, CardHeader } from 'material-ui/Card';
-import {Typography, Avatar, Button} from 'material-ui';
+import {Typography, Avatar, Button, CardHeader, CardContent, CardActions, Card} from '@material-ui/core';
 
 import {Link} from "react-router-dom";
 import VoteComponent from "../app/voteComponent";

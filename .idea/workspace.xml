@@ -2,39 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcba88f4-1bf0-4267-8993-6f9df75eca66" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/NotFound.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/NotFound.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/SortPostContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/SortPostContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/voteComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/voteComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/categories/CategoryAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/categories/CategoryAction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/categories/CategoryContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/categories/CategoryContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/comments/CommentAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/comments/CommentAction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/comments/CommentsContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/comments/CommentsContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/detailPost/PostDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/detailPost/PostDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/editPosts/EditPost.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/editPosts/EditPost.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/posts/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/posts/Post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/posts/PostAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/posts/PostAction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/manifest.json" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -43,188 +36,68 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>selectCategory</find>
-      <find>app</find>
-      <find>Deleted Post</find>
-      <find>Cate</find>
-      <find>CategorySwitch</find>
-      <find>sortPost</find>
-      <find>e.target</find>
-      <find>class</find>
-      <find>Favorite</find>
-      <find>deletePost</find>
-      <find>select</find>
-      <find>votePostWithId</find>
-      <find>PostSwitc</find>
-      <find>voteOnComment</find>
-      <find>PostContainer</find>
-      <find>vote</find>
-      <find>.</find>
-      <find>PostDetails</find>
-      <find>PostSw</find>
-      <find>PostSwit</find>
-      <find>handleCommen</find>
-      <find>category</find>
-      <find>404</find>
-      <find>PostDEta</find>
-      <find>callAjax</find>
-      <find>errorPage</find>
-      <find>michaelh</find>
-      <find>cross-</find>
-      <find>:category</find>
-      <find>&lt;Link to={`/category/${id}`}</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>Header</replace>
-      <replace>;</replace>
-      <replace>sidebarStatus</replace>
-      <replace>p</replace>
-      <replace>== null</replace>
-      <replace>props.post</replace>
-      <replace>floatingLabelText</replace>
-      <replace>className</replace>
-      <replace>dateTime</replace>
-      <replace>fetchPostsForCategory</replace>
-      <replace>postsByCategory</replace>
-      <replace>this.props.post</replace>
-      <replace>REQUEST_COMMENTS</replace>
-      <replace>RECEIVE_COMMENTS</replace>
-      <replace>props</replace>
-      <replace>this.props</replace>
-      <replace>debounceCommentBoxChange</replace>
-      <replace>&lt;Link to={`/${category}/${id}`}</replace>
-    </replaceStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$/frontend/src</dir>
-    </dirStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/api-server/config.js" />
-        <option value="$PROJECT_DIR$/frontend/README.md" />
-        <option value="$PROJECT_DIR$/api-server/categories.js" />
-        <option value="$PROJECT_DIR$/frontend/src/store/configureStore.js" />
-        <option value="$PROJECT_DIR$/api-server/comments.js" />
-        <option value="$PROJECT_DIR$/frontend/src/posts/PostDetails.js" />
-        <option value="$PROJECT_DIR$/frontend/src/Nofound.js" />
-        <option value="$PROJECT_DIR$/frontend/src/categories/CategoryAction.js" />
-        <option value="$PROJECT_DIR$/frontend/src/app/Sidebar.js" />
-        <option value="$PROJECT_DIR$/frontend/src/app/index.css" />
-        <option value="$PROJECT_DIR$/frontend/src/app/Home.js" />
-        <option value="$PROJECT_DIR$/frontend/src/posts/Posts.js" />
-        <option value="$PROJECT_DIR$/frontend/src/app/reducers.js" />
-        <option value="$PROJECT_DIR$/api-server/posts.js" />
-        <option value="$PROJECT_DIR$/api-server/server.js" />
-        <option value="$PROJECT_DIR$/frontend/src/app/voteComponent.js" />
-        <option value="$PROJECT_DIR$/frontend/src/comments/CommentAction.js" />
-        <option value="$PROJECT_DIR$/frontend/src/index.js" />
-        <option value="$PROJECT_DIR$/frontend/src/posts/PostAction.js" />
-        <option value="$PROJECT_DIR$/frontend/src/posts/AddPost.js" />
-        <option value="$PROJECT_DIR$/frontend/src/editPosts/EditPost.js" />
-        <option value="$PROJECT_DIR$/frontend/src/comments/CommentReducers.js" />
-        <option value="$PROJECT_DIR$/frontend/src/categories/CategoryReducers.js" />
-        <option value="$PROJECT_DIR$/frontend/src/posts/PostReducers.js" />
-        <option value="$PROJECT_DIR$/frontend/src/app/UpdateBlocker.js" />
-        <option value="$PROJECT_DIR$/frontend/src/categories/CategoryContainer.js" />
-        <option value="$PROJECT_DIR$/frontend/src/comments/CommentsContainer.js" />
-        <option value="$PROJECT_DIR$/frontend/src/typedef.js" />
-        <option value="$PROJECT_DIR$/frontend/src/app/App.js" />
-        <option value="$PROJECT_DIR$/frontend/src/app/Header.js" />
-        <option value="$PROJECT_DIR$/frontend/src/NotFound.js" />
-        <option value="$PROJECT_DIR$/frontend/src/app/App.css" />
-        <option value="$PROJECT_DIR$/frontend/src/posts/PostContainer.js" />
-        <option value="$PROJECT_DIR$/frontend/src/detailPost/PostDetails.js" />
-        <option value="$PROJECT_DIR$/frontend/src/app/SpecificCategory.js" />
-        <option value="$PROJECT_DIR$/frontend/src/categories/CategorySwitch.js" />
-        <option value="$PROJECT_DIR$/frontend/src/posts/Post.js" />
-        <option value="$PROJECT_DIR$/frontend/src/posts/PostSwitch.js" />
-        <option value="$PROJECT_DIR$/frontend/src/posts/AllPosts.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/api-server/node_modules" />
-    <handled-path value="$PROJECT_DIR$/frontend/node_modules" />
-    <handled-path value="$PROJECT_DIR$/node_modules" />
-  </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="846" />
-    <option name="width" value="834" />
-    <option name="height" value="1050" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Readdit-Clone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Readdit-Clone" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectId" id="1gWoQDbJR6wBPhFKsQdyevtpyQs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.prettier" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.prettier" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.prettier" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend/src/comments" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend" />
       <recent name="$PROJECT_DIR$/frontend/src/detailPost" />
       <recent name="$PROJECT_DIR$/frontend/src" />
       <recent name="$PROJECT_DIR$/frontend/src/images" />
       <recent name="$PROJECT_DIR$/frontend/src/app" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/frontend/src/comments" />
-    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/frontend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <item itemvalue="npm.start" />
       </list>
-    </option>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -253,56 +126,43 @@
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206160000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="412" y="0" width="1268" height="1050" extended-state="6" />
-    <layout>
-      <window_info anchor="right" id="Key Promoter X" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14845024" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.15114874" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.4574359" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32889965" />
-    </layout>
-    <layout-to-restore>
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.1465821" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.15114874" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.17291415" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32889965" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="WindowStateProjectService">
+    <state width="1636" height="113" key="GridCell.Tab.0.bottom" timestamp="1598240453526">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1636" height="113" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1598240453526" />
+    <state width="1636" height="113" key="GridCell.Tab.0.center" timestamp="1598240453525">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1636" height="113" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1598240453525" />
+    <state width="1636" height="113" key="GridCell.Tab.0.left" timestamp="1598240453525">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1636" height="113" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1598240453525" />
+    <state width="1636" height="113" key="GridCell.Tab.0.right" timestamp="1598240453526">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1636" height="113" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1598240453526" />
+    <state x="495" y="158" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1598240724222">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="495" y="158" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1598240724222" />
+    <state x="623" y="447" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598242726812">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="623" y="447" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.1027@0.23.1680.1027" timestamp="1598242726812" />
+    <state x="498" y="276" width="837" height="563" key="find.popup" timestamp="1598242994636">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="498" y="276" width="837" height="563" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1598242994636" />
+    <state x="498" y="293" width="837" height="550" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1598242188974" />
+    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1598241947323">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1598241947323" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -313,126 +173,6 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="5" />
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/frontend/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/posts/AddPost.js" />
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/index.css" />
-    <entry file="file://$PROJECT_DIR$/frontend/src/categories/CategoryAction.js" />
-    <entry file="file://$PROJECT_DIR$/frontend/src/detailPost/PostDetails.js" />
-    <entry file="file://$PROJECT_DIR$/api-server/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="40" selection-start-column="40" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-server/README.md" />
-    <entry file="file://$PROJECT_DIR$/frontend/public/index.html" />
-    <entry file="file://$PROJECT_DIR$/frontend/public/manifest.json" />
-    <entry file="file://$PROJECT_DIR$/frontend/README.md" />
-    <entry file="file://$PROJECT_DIR$/frontend/yarn.lock" />
-    <entry file="file://$PROJECT_DIR$/frontend/src/store/configureStore.js" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/react.d.ts" />
-    <entry file="file://$PROJECT_DIR$/api-server/categories.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="1" column="35" lean-forward="true" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/index.css" />
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/Home.js" />
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es2015.core.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="303" column="4" selection-start-line="303" selection-start-column="4" selection-end-line="303" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="1771" column="4" selection-start-line="1771" selection-start-column="4" selection-end-line="1771" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/reducers.js" />
-    <entry file="file://$PROJECT_DIR$/frontend/src/comments/CommentAction.js" />
-    <entry file="file://$PROJECT_DIR$/frontend/src/posts/AddPost.js" />
-    <entry file="file://$PROJECT_DIR$/frontend/src/editPosts/EditPost.js" />
-    <entry file="file://$PROJECT_DIR$/frontend/src/comments/CommentReducers.js" />
-    <entry file="file://$PROJECT_DIR$/frontend/src/categories/CategoryReducers.js" />
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/Sidebar.js" />
-    <entry file="file://$PROJECT_DIR$/frontend/src/posts/PostAction.js" />
-    <entry file="file://$PROJECT_DIR$/frontend/src/categories/CategoryAction.js" />
-    <entry file="file://$PROJECT_DIR$/frontend/src/categories/CategoryContainer.js" />
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/UpdateBlocker.js" />
-    <entry file="file://$PROJECT_DIR$/frontend/src/posts/PostReducers.js" />
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/voteComponent.js" />
-    <entry file="file://$PROJECT_DIR$/api-server/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3133">
-          <caret line="209" column="29" lean-forward="true" selection-start-line="209" selection-start-column="29" selection-end-line="209" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-server/posts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="25" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/typedef.js" />
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/App.js" />
-    <entry file="file://$PROJECT_DIR$/frontend/src/index.js" />
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/Header.js" />
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/App.css" />
-    <entry file="file://$PROJECT_DIR$/frontend/src/NotFound.js" />
-    <entry file="file://$PROJECT_DIR$/frontend/src/detailPost/PostDetails.js" />
-    <entry file="file://$PROJECT_DIR$/frontend/src/posts/PostContainer.js" />
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/SpecificCategory.js" />
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api-server/comments.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-154">
-          <caret line="80" column="20" lean-forward="true" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/comments/CommentsContainer.js" />
-    <entry file="file://$PROJECT_DIR$/frontend/src/categories/CategorySwitch.js" />
-    <entry file="file://$PROJECT_DIR$/frontend/src/posts/Post.js" />
-    <entry file="file://$PROJECT_DIR$/frontend/src/posts/PostSwitch.js" />
-    <entry file="file://$PROJECT_DIR$/frontend/src/posts/AllPosts.js" />
-    <entry file="file://$PROJECT_DIR$/frontend/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
