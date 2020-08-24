@@ -2,27 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcba88f4-1bf0-4267-8993-6f9df75eca66" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/posts/PostContainer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/miketran.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/miketran.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/NotFound.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/NotFound.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/SortPostContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/SortPostContainer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/voteComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/voteComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/categories/CategoryAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/categories/CategoryAction.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/categories/CategoryContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/categories/CategoryContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/comments/CommentAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/comments/CommentAction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/comments/CommentsContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/comments/CommentsContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/detailPost/PostDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/detailPost/PostDetails.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/editPosts/EditPost.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/editPosts/EditPost.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/posts/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/posts/Post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/posts/PostAction.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/posts/PostAction.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/posts/PostContainer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/typedef.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/typedef.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +59,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/frontend/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -154,14 +145,15 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="623" y="447" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.1027@0.23.1680.1027" timestamp="1598242726812" />
-    <state x="498" y="276" width="837" height="563" key="find.popup" timestamp="1598242994636">
+    <state x="498" y="276" width="837" height="563" key="find.popup" timestamp="1598247794205">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="498" y="276" width="837" height="563" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1598242994636" />
+    <state x="498" y="276" width="837" height="563" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1598247794205" />
     <state x="498" y="293" width="837" height="550" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1598242188974" />
-    <state x="505" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1598241947323">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="505" y="232" width="670" height="692" key="search.everywhere.popup" timestamp="1598244801262">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
+    <state x="505" y="232" width="670" height="692" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1598244801262" />
     <state x="505" y="250" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1598241947323" />
   </component>
   <component name="XDebuggerManager">

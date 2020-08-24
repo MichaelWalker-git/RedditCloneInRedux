@@ -1,6 +1,6 @@
 import React from 'react';
 import { KeyboardArrowUp, KeyboardArrowDown} from '@material-ui/icons';
-
+import PropTypes from 'prop-types';
 
 const VoteComponent = (props) => {
 	return (
@@ -23,3 +23,8 @@ const VoteComponent = (props) => {
 };
 
 export default VoteComponent;
+
+VoteComponent.propTypes = {
+	voteComment: PropTypes.func,
+	voteScore: PropTypes.string
+};
