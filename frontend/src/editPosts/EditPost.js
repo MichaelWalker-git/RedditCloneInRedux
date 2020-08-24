@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Button, FormControl, Input, InputLabel, MenuItem, Select} from "material-ui";
+import {Button, FormControl, Input, InputLabel, MenuItem, Select} from "@material-ui/core";
 
 class EditPost extends Component {
 	state = {

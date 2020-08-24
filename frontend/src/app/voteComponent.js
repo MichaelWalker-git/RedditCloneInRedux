@@ -1,5 +1,5 @@
 import React from 'react';
-import { KeyboardArrowUp, KeyboardArrowDown} from 'material-ui-icons';
+import { KeyboardArrowUp, KeyboardArrowDown} from '@material-ui/icons';
 
 
 const VoteComponent = (props) => {

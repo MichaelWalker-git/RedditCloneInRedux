@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {FormControl, Input, InputLabel, MenuItem, Select, Typography} from "material-ui";
+import {FormControl, Input, InputLabel, MenuItem, Select, Typography} from "@material-ui/core";
 
 class SortPostContainer extends Component {
 	state = {

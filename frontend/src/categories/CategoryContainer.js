@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink} from "react-router-dom";
-import {ListItemText, ListItem, List} from "material-ui";
+import {ListItemText, ListItem, List} from "@material-ui/core";
 
 const Categories = (props) => {
 	const {categories} = props;

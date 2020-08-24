@@ -3,8 +3,8 @@ import './App.css';
 import {connect} from "react-redux";
 import UUID from "uuid-js";
 import {NavLink, Route, Switch} from "react-router-dom";
-import {ListItemIcon, ListItemText, List, ListItem, Drawer, Divider} from "material-ui";
-import {Home} from 'material-ui-icons';
+import {ListItemIcon, ListItemText, List, ListItem, Drawer, Divider} from "@material-ui/core";
+import {Home} from '@material-ui/icons';
 
 import Header from "./Header";
 import AllPosts from "../posts/AllPosts";
@@ -76,6 +76,8 @@ class App extends Component {
 
 	render() {
 		const { categories, hideSortDropDown, selectedCategory} = this.props;
+
+		console.log(process.env.REACT_APP_SERVER_ENV, "ENV")
 		return (
 			<div className='main'>
 				<div className='header'>

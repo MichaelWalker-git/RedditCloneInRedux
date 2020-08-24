@@ -76,7 +76,7 @@ function receiveWithUpdatedComment(updatedComment){
 export function voteComment(voteParam){
 	return dispatch => {
 		dispatch(upVoteComment(voteParam));
-		return fetch(`window.location.origin/comments/${voteParam.commentId}`, {
+		return fetch(`${process.env.REACT_APP_SERVER_ENV}/api//comments/${voteParam.commentId}`, {
 			headers: {
 				'Authorization': 'whatever-you-want',
 				'Content-Type': 'application/json'
@@ -92,7 +92,7 @@ export function voteComment(voteParam){
 export function postNewComment(params){
 	return dispatch => {
 		dispatch(createComment(params));
-		return fetch(`window.location.origin/comments`, {
+		return fetch(`${process.env.REACT_APP_SERVER_ENV}/api//comments`, {
 			headers: {
 				'Authorization': 'whatever-you-want',
 				'Content-Type': 'application/json'
@@ -108,7 +108,7 @@ export function postNewComment(params){
 export function editCommentBody(params, id){
 	return dispatch => {
 		dispatch(editSingleComment(params));
-		return fetch(`window.location.origin/comments/${id}`, {
+		return fetch(`${process.env.REACT_APP_SERVER_ENV}/api//comments/${id}`, {
 			headers: {
 				'Authorization': 'whatever-you-want',
 				'Content-Type': 'application/json'
@@ -124,7 +124,7 @@ export function editCommentBody(params, id){
 export function deleteComment(postId){
 	return dispatch => {
 		dispatch(deleteSingleComment(postId));
-		return fetch(`window.location.origin/comments/${postId}`, {
+		return fetch(`${process.env.REACT_APP_SERVER_ENV}/api//comments/${postId}`, {
 			headers: { 'Authorization': 'whatever-you-want'},
 			method: 'DELETE',
 		})
@@ -136,7 +136,7 @@ export function deleteComment(postId){
 export function fetchComments(postId){
 	return dispatch => {
 		dispatch(requestCategories(postId));
-		return fetch(`window.location.origin/posts/${postId}/comments`, {
+		return fetch(`${process.env.REACT_APP_SERVER_ENV}/api//posts/${postId}/comments`, {
 			headers: { 'Authorization': 'whatever-you-want'
 			}
 		})
