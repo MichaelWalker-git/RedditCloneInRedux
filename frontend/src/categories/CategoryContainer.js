@@ -2,8 +2,7 @@ import React from 'react';
 import { NavLink} from "react-router-dom";
 import {ListItemText, ListItem, List} from "@material-ui/core";
 
-const Categories = (props) => {
-	const {categories} = props;
+const Categories = ({categories}) => {
 	return (
 		<div>
 			<List>
