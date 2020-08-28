@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcba88f4-1bf0-4267-8993-6f9df75eca66" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/frontend/src/posts/PostContainer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/miketran.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/miketran.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/api-server/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/voteComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/voteComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/categories/CategoryContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/categories/CategoryContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/posts/PostContainer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/typedef.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/typedef.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/editPosts/EditPost.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/editPosts/EditPost.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/posts/AllPosts.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/posts/AllPosts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +106,7 @@
       <workItem from="1516774645223" duration="146000" />
       <workItem from="1516846349188" duration="1997000" />
       <workItem from="1549732699408" duration="118000" />
+      <workItem from="1598340680590" duration="1581000" />
     </task>
     <servers />
   </component>

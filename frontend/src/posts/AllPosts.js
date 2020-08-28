@@ -5,7 +5,6 @@ import {selectCategory} from "../categories/CategoryAction";
 import PostContainer from "./PostContainer";
 
 class AllPosts extends Component {
-
 	componentWillMount() {
 		const {dispatch} = this.props;
 		dispatch(selectCategory('all'));

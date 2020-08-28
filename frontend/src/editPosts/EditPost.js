@@ -1,66 +1,67 @@
-import React, {Component} from 'react';
+import React, {useState, useEffect} from 'react';
 import {Button, FormControl, Input, InputLabel, MenuItem, Select} from "@material-ui/core";
 
-class EditPost extends Component {
-	state = {
-		title: '',
-		commentScore: 0,
-		voteScore: 0,
-		body: '',
-		id: '',
-		timestamp: '',
-		author: '',
-		deleted: false,
-		category: 'react',
-		authorDisabled: false,
-	};
+const defaultPost = {
+	title: '',
+	commentScore: 0,
+	voteScore: 0,
+	body: '',
+	id: '',
+	timestamp: '',
+	author: '',
+	deleted: false,
+	category: 'react',
+	authorDisabled: false,
+};
 
-	componentWillMount(){
-		this.props.hideSortDropDown();
-		if(this.props.action === "Edit"){
-			const {body, title, author, category, id, timestamp} = this.props.singlePostDetails.singlePost;
-			this.setState({body, title, author, category, id, timestamp, authorDisabled: true});
+function EditPost (props) {
+	const [post, setPost] = useState(defaultPost);
+
+	useEffect(() => {
+		props.hideSortDropDown();
+		if(props.action === "Edit"){
+			const {body, title, author, category, id, timestamp} = props.singlePostDetails.singlePost;
+			setPost({body, title, author, category, id, timestamp, authorDisabled: true});
 		}
-	}
+	});
 
-	handleChange = (e) => {
+	const handleChange = (e) => {
 		const stateProperty = e.target.id ?  e.target.id : e.target.name;
-		this.setState({[stateProperty]: e.target.value});
+		setPost({[stateProperty]: e.target.value});
 	};
 
 
-	submitForm = () => {
-		this.props.submitChanges(this.state);
+	const submitForm = () => {
+		props.submitChanges(post);
 	};
 
-	render(){
-		const {categories} = this.props;
+		const {categories} = props;
 		return (
 			<div>
 				<div>
-					<h2>{this.props.action} Post</h2>
+					<h2>{props.action} Post</h2>
 					<FormControl fullWidth className='formControl'>
 						<InputLabel htmlFor="title-helper">Title</InputLabel>
 						<Input id="title"
-									 value={this.state.title}
-									 onChange={this.handleChange} />
+									 value={posttitle}
+									 onChange={handleChange} />
 					</FormControl>
 				</div>
 				<div>
 					<FormControl fullWidth className='formControl'>
 						<InputLabel htmlFor="body-helper">Body</InputLabel>
 						<Input id="body"
-									 value={this.state.body}
-									 onChange={this.handleChange} />
+									 value={postbody}
+									 onChange={handleChange} />
 					</FormControl>
 				</div>
 				<div>
 					<FormControl fullWidth className='formControl'>
 						<InputLabel htmlFor="author-helper">Author</InputLabel>
 						<Input id="author"
-									 value={this.state.author}
-									 disabled = {this.state.authorDisabled}
-									 onChange={this.handleChange} />
+									 value={post.author}
+									 disabled = {post.authorDisabled}
+									 onChange={handleChange} />
 					</FormControl>
 				</div>
 				<div className='categoryDropDown'>
@@ -68,8 +69,8 @@ class EditPost extends Component {
 						<InputLabel htmlFor="category-helper">Category</InputLabel>
 						<Select
 							id='category'
-							value={this.state.category}
-							onChange={this.handleChange}
+							value={post.category}
+							onChange={handleChange}
 							required
 							input={<Input name="category" id="category" />}
 						>
@@ -85,13 +86,12 @@ class EditPost extends Component {
 					<br/>
 				</div>
 				<div>
-					<Button raised color="primary" onClick={this.submitForm}>
-						{this.props.action}
+					<Button raised color="primary" onClick={submitForm}>
+						{props.action}
 					</Button>
 				</div>
 			</div>
 		);
-	}
 }
 
 export default EditPost;
