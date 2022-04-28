@@ -10,7 +10,7 @@
     "@types/react": "^16.9.46",
     "@types/react-dom": "^16.9.8",
     "@types/react-redux": "^7.1.9",
-    "cross-fetch": "^1.1.1",
+    "cross-fetch": "^3.1.5",
     "fetch": "^1.1.0",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
